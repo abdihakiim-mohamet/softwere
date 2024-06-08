@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-image: url("pexels-fahribagirov-17400783.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav-list a:hover {
+    background-color: lightgray;
+    padding: 7px 20px;
+    border-radius: 14px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 30px;  
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;  
+    line-height: 30px; 
+    color: white;
+    font-size: 16px;  
+  }
+  
+
+  .social-icons a:hover {
+    background-color: darkgray;
+  }
